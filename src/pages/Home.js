@@ -4,6 +4,9 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import Profile from '../assets/profile.jpeg'
 
+
+
+          //*********************Hero Section *****************/
               function SectionOne() {
                 return (<>
 
@@ -26,6 +29,8 @@ import Profile from '../assets/profile.jpeg'
                 )
 
               }
+
+           //*********************About Section *****************/    
             function SectionTwo() {
               return (
                <>
@@ -45,7 +50,7 @@ import Profile from '../assets/profile.jpeg'
               );
             }
 
-
+           //*********************Servie Section *****************/
             function SectionThree(){
               return(
                   <>
@@ -97,6 +102,50 @@ import Profile from '../assets/profile.jpeg'
               )
             }
 
+             //*********************Project Section *****************/
+            function SectionFour(){
+              return(
+                  <>
+                  <section className='Project-section'>
+                      <Container>
+                        <Row>
+                            <div className='text-project'>
+                            <Col sm={6}>
+                                <h1>My Project</h1>
+                            </Col>
+                            <Col sm={6}>
+                                    <p>Presson team is constantly striving for perfection. 
+                                      We are lucky to work with notable and known clients. 
+                                      </p>
+                            </Col>
+                            </div>
+                            </Row>
+                            <Row>
+                            <div className='img-main'>
+                                <Col sm={12} className='img-project'>
+                                    <Col className='left-img'>
+                                    <img src={require('../assets/WebFrameSample.png')} alt=""/>
+                                    </Col>
+                                    <Col className='right-img'>
+                                    <img src={require('../assets/GraphicFrameSample.png')} alt=""/>
+                                    <img src={require('../assets/WebFrameSample.png')} alt=""/>
+                                    <img src={require('../assets/WebFrameSample.png')} alt=""/>
+                                    </Col>
+                                </Col>
+                            </div>
+                            </Row>
+                       
+                      </Container>
+                  </section>
+                  
+                  </>
+
+              )
+            }
+
+
+
+
 
             function Section() {
               return (
@@ -107,6 +156,8 @@ import Profile from '../assets/profile.jpeg'
                   <SectionTwo/>
                    {/* Service Section */}
                   <SectionThree/>
+                   {/* project Section */}
+                   <SectionFour/>
                 </div>
               );
             }
