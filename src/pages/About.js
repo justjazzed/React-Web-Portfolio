@@ -1,13 +1,11 @@
 import Navbar from '../components/Navbar';
-import Home from './Home'
+import SectionFour from './Home'
 
 function About() {
     return (
      <>
       <Navbar/>
-    <Home
-       
-    />
+      <SectionFour/>
      </>
     );
   }
