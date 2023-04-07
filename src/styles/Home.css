@@ -1,5 +1,5 @@
 .Hero {
-  background-color: #eaeaea;
+  background-color: #252a32;
   height: 800px;
   display: flex;
   align-items: center;
@@ -16,12 +16,15 @@
 .hero-main h1 {
   font-size: 100px;
   font-weight: 700;
-  color: #2c2d30;
+  color: #fefbfc;
+}
+.hero-main h5{
+  color: #37d3aa;
 }
 .hero-main h2 {
   font-size: 50px;
   font-weight: 500;
-  color: #2c2d30;
+  color: #37d3aa;
 }
 
 /* **********************About Section *********************/
@@ -30,14 +33,7 @@
   height: 500px;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(
-    to bottom,
-    #eaeaea,
-    #c1c1c2,
-    #99999c,
-    #727378,
-    #4e4f55
-  );
+  background-color: #252a32;
 }
 .about-main img {
   width: 300px;
@@ -49,7 +45,7 @@
   background-color: #eaeaea;
   justify-content: center;
   padding: 1%;
-  border-radius: 20px;
+ 
 }
 .about-main p {
   width: 22em;
@@ -68,12 +64,12 @@
   height: 900px;
   display: flex;
   align-items: center;
-  background-color: #4e4f55;
+  background-color: #252a32;
 }
 .Service-section h1 {
   font-size: 70px;
   font-weight: 700;
-  color: #eaeaea;
+  color: #37d3aa;
 }
 .Service-section .service-text {
   display: flex;
@@ -84,7 +80,68 @@
   width: 200px;
   margin: 10px 0 10px 0;
 }
-.Service-section .service-text h3,
-p {
-  color: #eaeaea;
+.Service-section .service-text h3{
+  color: #37d3aa;
 }
+.Service-section .service-text p{
+  color: #fefbfc;
+}
+    /* **********************Project Section*********************/
+.Project-section{
+    height: 70em;
+    padding-top: 5%;
+    background-color: #252a32;
+    text-align: center;
+}
+.text-project{
+    display: flex;
+    align-items: center;
+   
+}
+.text-project p{
+  color: #37d3aa;
+    font-size: 15px;
+    width: 25em;
+}
+.text-project h1{
+  color: #37d3aa;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.img-project{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 20px;
+}
+.img-project img{
+  width: 55em;
+  margin:  10px 0 10px 0;
+}
+.right-img{
+  display: flex;
+  flex-direction: column;
+}
+.right-img img{
+  width: 273px;
+}
+.img-main{
+  display: flex;
+  justify-content: center;
+}
+.project-description{
+  display: flex;
+ color: #fefbfc;
+  align-items: center;
+}
+.project-description h1{
+  color: #37d3aa;
+  text-align: left;
+}
+.project-description p{
+  color: #fefbfc;
+  text-align: left;
+}
+/* **********************Other Project Section*********************/
+
