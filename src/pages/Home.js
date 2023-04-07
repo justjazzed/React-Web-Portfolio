@@ -3,7 +3,7 @@ import "../styles/Home.css"
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import Profile from '../assets/profile.jpeg'
-
+import ProfileAbout from '../assets/AnimatedMe.png'
 
 
           //*********************Hero Section *****************/
@@ -38,7 +38,7 @@ import Profile from '../assets/profile.jpeg'
                     <Container>
                         <Row className='about-main'>
                         <Col sm={6} className='about-content'>
-                          <img src={Profile} alt="" />
+                          <img src={ProfileAbout} alt="" />
                           <p>I'm a Graphic and Web Designer from Agan Ligaya General Santos City. I have over almost 2 years of 
                             freelance experience in the various fields of graphic design.</p>
                           </Col>
@@ -134,6 +134,22 @@ import Profile from '../assets/profile.jpeg'
                                 </Col>
                             </div>
                             </Row>
+                            <Row>
+                              <div className='project-description'>
+                                  <Col lg={6}>
+                                    <h1>Web Design Project</h1>
+                                  </Col>
+                                  <Col lg={6}>
+                                    <p>Equipped with air conditioning, private pool, 3 on-suite bedrooms and a 
+                                      spacious open living room kitchen area, Sunshine Bay Residences are an excellent 
+                                      choice for anyone dreaming of their own safe haven. Located in a peaceful, 
+                                      child-friendly neighborhood, Sunshine Bay has all the amenities that you could
+                                       expect from a suburb voted 'best in the state' for 3 running years. Whether you want
+                                       to play soccer with your kids on the lawn, or invite friends over for 
+                                      dinner, there's space for it at Sunshine Bay.</p>
+                                  </Col>
+                              </div>
+                            </Row>
                        
                       </Container>
                   </section>
@@ -143,6 +159,17 @@ import Profile from '../assets/profile.jpeg'
               )
             }
 
+            function SectionFive(){
+              return(
+                <>
+                <section className='other-project'>
+
+
+                </section>
+                
+                </>
+              )
+            }
 
 
 
@@ -158,6 +185,8 @@ import Profile from '../assets/profile.jpeg'
                   <SectionThree/>
                    {/* project Section */}
                    <SectionFour/>
+                    {/* other project Section */}
+                    <SectionFive/>
                 </div>
               );
             }
