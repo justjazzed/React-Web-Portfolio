@@ -71,6 +71,17 @@
   font-weight: 700;
   color: #37d3aa;
 }
+.box-line{
+  width: 150px;
+  height: 10px;
+  background-color: #37d3aa;
+  margin-bottom: 0;
+}
+.left-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .Service-section .service-text {
   display: flex;
   align-items: center;
