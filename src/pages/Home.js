@@ -59,8 +59,9 @@ import ProfileAbout from '../assets/AnimatedMe.png'
                     <Container>
 
                     <Row>
-                      <Col lg={6}>
+                      <Col lg={6} className='left-text'>
                           <h1>What we Offer</h1>
+                          <div className='box-line'></div>
                       </Col>
                       <Col lg={6}>
                       <div className=" service-description">
@@ -81,7 +82,7 @@ import ProfileAbout from '../assets/AnimatedMe.png'
                       </div> 
                   </div>
                   <div className="service-text">
-                      <img src={require('../assets/illustration.png')} alt=""/>
+                      <img src={require('../assets/coding.png')} alt=""/>
                       <div>
                         <h3>Web Developer</h3>
                       <p>Each of us is a master of our craft – we've worked a number of years in our field and each have passion 
@@ -95,8 +96,8 @@ import ProfileAbout from '../assets/AnimatedMe.png'
                     </Container>
 
                   </section>
-                  
-                  
+         
+            
                   </>
 
               )
@@ -124,12 +125,12 @@ import ProfileAbout from '../assets/AnimatedMe.png'
                             <div className='img-main'>
                                 <Col sm={12} className='img-project'>
                                     <Col className='left-img'>
-                                    <img src={require('../assets/WebFrameSample.png')} alt=""/>
+                                    <img src={require('../assets/GraphicFrameSample.png')} alt=""/>
                                     </Col>
                                     <Col className='right-img'>
                                     <img src={require('../assets/GraphicFrameSample.png')} alt=""/>
                                     <img src={require('../assets/WebFrameSample.png')} alt=""/>
-                                    <img src={require('../assets/WebFrameSample.png')} alt=""/>
+                                    <img src={require('../assets/LogoFrameSample.png')} alt=""/>
                                     </Col>
                                 </Col>
                             </div>
@@ -137,7 +138,7 @@ import ProfileAbout from '../assets/AnimatedMe.png'
                             <Row>
                               <div className='project-description'>
                                   <Col lg={6}>
-                                    <h1>Web Design Project</h1>
+                                    <h1>Graphics Design Project</h1>
                                   </Col>
                                   <Col lg={6}>
                                     <p>Equipped with air conditioning, private pool, 3 on-suite bedrooms and a 
@@ -163,16 +164,32 @@ import ProfileAbout from '../assets/AnimatedMe.png'
               return(
                 <>
                 <section className='other-project'>
-
-
+                  <Container>
+                  <Row className='other-text'>
+                      <Col>
+                          <h1>Other Project</h1>
+                      </Col>
+                      <Col>
+                          
+                      </Col>
+                  </Row>
+                  <Row >
+                      <Col className='other-image' >
+                      <img src={require('../assets/Day.png')} alt=""/>
+                      <img src={require('../assets/Night.png')} alt=""/>
+                      </Col>
+                  </Row>
+                    <Row>
+                      <Col className='see-button'>
+                          <li><a href='/'>See Sample</a></li>
+                      </Col>
+                    </Row>
+                  </Container>
                 </section>
                 
                 </>
               )
             }
-
-
-
 
             function Section() {
               return (
