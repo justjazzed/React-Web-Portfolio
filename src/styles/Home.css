@@ -75,7 +75,7 @@
   width: 150px;
   height: 10px;
   background-color: #37d3aa;
-  margin-bottom: 0;
+ margin-bottom: 3em;
 }
 .left-text{
   display: flex;
@@ -89,7 +89,7 @@
 }
 .Service-section .service-text img {
   width: 200px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
 }
 .Service-section .service-text h3{
   color: #37d3aa;
@@ -97,6 +97,8 @@
 .Service-section .service-text p{
   color: #fefbfc;
 }
+
+
     /* **********************Project Section*********************/
 .Project-section{
     height: 70em;
@@ -155,4 +157,38 @@
   text-align: left;
 }
 /* **********************Other Project Section*********************/
-
+.other-project{
+  height: 58em;
+  background-color: #252a32;
+}
+.other-project h1{
+  color: #37d3aa;
+  font-size: 80px;
+  font-weight: 700;
+}
+.other-image img{
+  width: 600px;
+}
+.other-image{
+ display: flex;
+ justify-content: center;
+}
+.see-button{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.see-button li {
+  list-style: none;
+  border: 1px solid #37d3aa;
+  width: 8em;
+  height: 4em; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.see-button li a{
+  color: #37d3aa;
+  text-decoration: none;
+}
